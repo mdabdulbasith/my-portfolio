@@ -180,7 +180,7 @@ const Projects = () => {
         {/* View More Button */}
         <div className="text-center mt-12">
           <a
-            href="https://github.com"
+            href="https://github.com/mdabdulbasith?tab=repositories"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-[#b57edc] hover:text-[#996bb9] font-medium"
