@@ -80,11 +80,11 @@ const Contact = () => {
               {contactInfo.map((info, index) => (
                 <div key={index} className="flex items-center space-x-4">
                   <div className="flex-shrink-0 w-12 h-12 bg-[#efe7f4] rounded-lg flex items-center justify-center">
-                    <info.icon className="text-[#b57edc]" size={20} />
+                    <info.icon className="text-[#8c29a7]" size={20} />
                   </div>
                   <div>
                     <p className="font-medium text-gray-900">{info.label}</p>
-                    <a href={info.href} className="text-gray-600 hover:text-[#b57edc] transition-colors duration-200">
+                    <a href={info.href} className="text-gray-600 hover:text-[#8c29a7] transition-colors duration-200">
                       {info.value}
                     </a>
                   </div>
@@ -182,7 +182,7 @@ const Contact = () => {
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full bg-[#b57edc] text-white px-6 py-3 rounded-lg font-medium hover:bg-fuchsia-950 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors duration-200 flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
+                className="w-full bg-[#8c29a7] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#71188a] focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors duration-200 flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 {isSubmitting ? (
                   <>

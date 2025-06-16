@@ -63,11 +63,11 @@ const About = () => {
 
           {/* Image/Visual */}
           <div className="relative">
-            <div className="aspect-square bg-gradient-to-br from-[#b57edc] to-purple-600 rounded-2xl flex items-center justify-center text-white text-6xl font-bold shadow-2xl">
+            <div className="aspect-square bg-gradient-to-br from-[#8c29a7] to-[#71188a] rounded-2xl flex items-center justify-center text-white text-6xl font-bold shadow-2xl">
               AB
             </div>
             <div className="absolute -bottom-4 -right-4 bg-white p-4 rounded-lg shadow-lg">
-              <Coffee className="text-[#b57edc]" size={32} />
+              <Coffee className="text-[#8c29a7]" size={32} />
             </div>
           </div>
         </div>
@@ -80,7 +80,7 @@ const About = () => {
               className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-200"
             >
               <div className="flex items-center justify-center w-12 h-12 bg-[#ece1f5] rounded-lg mb-4">
-                <highlight.icon className="text-[#b57edc]" size={24} />
+                <highlight.icon className="text-[#8c29a7]" size={24} />
               </div>
               <h3 className="font-semibold mb-2 text-gray-900">{highlight.title}</h3>
               <p className="text-sm text-gray-600">{highlight.description}</p>

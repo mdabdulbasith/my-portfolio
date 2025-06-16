@@ -10,14 +10,14 @@ const Hero = () => {
       <div className="max-w-4xl mx-auto text-center">
         <div className="mb-8">
           {/* Profile Image */}
-          <div className="w-32 h-32 mx-auto my-2 mb-8 rounded-full bg-gradient-to-r from-[#b57edc] to-purple-600 flex items-center justify-center text-white text-4xl font-bold shadow-lg">
+          <div className="w-32 h-32 mx-auto my-2 mb-8 rounded-full bg-gradient-to-r from-[#8c29a7] to-[#71188a] flex items-center justify-center text-white text-4xl font-bold shadow-lg">
             AB
           </div>
 
           {/* Main Heading */}
           <h1 className="text-4xl sm:text-6xl font-bold mb-4 text-gray-900">
             Hi, I'm{" "}
-            <span className="bg-gradient-to-r from-[#b57edc] to-purple-600 bg-clip-text text-transparent">Abdul Basith</span>
+            <span className="bg-gradient-to-r from-[#8c29a7] to-[#71188a] bg-clip-text text-transparent">Abdul Basith</span>
           </h1>
 
           {/* Subtitle */}
@@ -34,7 +34,7 @@ const Hero = () => {
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
           <button
             onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}
-            className="bg-[#b57edc] text-white px-8 py-3 rounded-lg font-medium hover:bg-fuchsia-950 transition-colors duration-200 flex items-center gap-2 shadow-lg hover:shadow-xl"
+            className="bg-[#8c29a7] text-white px-8 py-3 rounded-lg font-medium hover:bg-[#71188a] transition-colors duration-200 flex items-center gap-2 shadow-lg hover:shadow-xl"
           >
             <Mail size={20} />
             Get In Touch
@@ -47,7 +47,7 @@ const Hero = () => {
             href="https://github.com/mdabdulbasith?tab=repositories"
             target="_blank"
             rel="noopener noreferrer"
-            className="p-3 text-gray-600 hover:text-[#b57edc] hover:bg-gray-100 rounded-full transition-colors duration-200"
+            className="p-3 text-gray-600 hover:text-[#8c29a7] hover:bg-gray-100 rounded-full transition-colors duration-200"
           >
             <Github size={24} />
           </a>
@@ -55,13 +55,13 @@ const Hero = () => {
             href="https://linkedin.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="p-3 text-gray-600 hover:text-[#b57edc] hover:bg-gray-100 rounded-full transition-colors duration-200"
+            className="p-3 text-gray-600 hover:text-[#8c29a7] hover:bg-gray-100 rounded-full transition-colors duration-200"
           >
             <Linkedin size={24} />
           </a>
           <a
             href="mailto:mohammadabdulbasith123@gmail.com"
-            className="p-3 text-gray-600 hover:text-[#b57edc] hover:bg-gray-100 rounded-full transition-colors duration-200"
+            className="p-3 text-gray-600 hover:text-[#8c29a7] hover:bg-gray-100 rounded-full transition-colors duration-200"
           >
             <Mail size={24} />
           </a>
@@ -70,7 +70,7 @@ const Hero = () => {
         {/* Scroll Down Indicator */}
         <button
           onClick={scrollToAbout}
-          className="animate-bounce text-gray-400 hover:text-[#b57edc] transition-colors duration-200"
+          className="animate-bounce text-gray-400 hover:text-[#8c29a7] transition-colors duration-200"
         >
           <ArrowDown size={24} />
         </button>

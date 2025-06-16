@@ -52,7 +52,7 @@ const Navigation = () => {
   ]
 
   return (
-    <nav className="fixed top-0 w-full bg-[#b57edc] shadow-lg z-50">
+    <nav className="fixed top-0 w-full bg-[#8c29a7] shadow-lg z-50">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
@@ -65,7 +65,7 @@ const Navigation = () => {
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
                 className={`px-3 py-2 text-sm font-medium transition-colors duration-200 ${
-                  activeSection === item.id ? "text-fuchsia-950" : "text-white hover:text-fuchsia-950"
+                  activeSection === item.id ? "text-[#32093d]" : "text-white hover:text-[#32093d] hover: cursor-pointer"
                 }`}
               >
                 {item.label}
@@ -75,7 +75,7 @@ const Navigation = () => {
 
           {/* Mobile menu button */}
           <button
-            className="md:hidden p-2 rounded-md text-white hover:text-fuchsia-950"
+            className="md:hidden p-2 rounded-md text-white hover:text-[#32093d]"
             onClick={() => setIsOpen(!isOpen)}
           >
             {isOpen ? <X size={24} /> : <Menu size={24} />}
@@ -92,7 +92,7 @@ const Navigation = () => {
                   onClick={() => scrollToSection(item.id)}
                   className={`text-left py-2 px-4 rounded-md transition-colors duration-200 ${
                     activeSection === item.id
-                      ? "text-fuchsia-950 bg-blue-50"
+                      ? "text-[#32093d] bg-blue-50"
                       : "text-white hover:text-fuchsia-650 hover:bg-gray-50"
                   }`}
                 >

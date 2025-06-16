@@ -32,8 +32,8 @@ const Projects = () => {
         "A responsive Netflix homepage clone featuring static movie thumbnails, a prominent hero banner, and smooth hover animations for an engaging user interface.",
       image: "data:image/png;base64,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",
       technologies: ["HTML", "CSS3"],
-      liveUrl: "https://netflix-ui-clo-git-b54b6a-mohammadabdulbasith123-8398s-projects.vercel.app/",
-      githubUrl: "https://netflix-ui-clone-js59a77ku.vercel.app/",
+      liveUrl: "https://netflix-ui-clone-eosin-tau.vercel.app/",
+      githubUrl: "https://github.com/mdabdulbasith/netflix-ui-clone",
       featured: false,
     },
     {
@@ -84,7 +84,7 @@ const Projects = () => {
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                 />
                 <div className="absolute top-4 right-4">
-                  <span className="bg-[#b57edc] text-white px-3 py-1 rounded-full text-sm font-medium">Featured</span>
+                  <span className="bg-[#8c29a7] text-white px-3 py-1 rounded-full text-sm font-medium">Featured</span>
                 </div>
               </div>
               <div className="p-6">
@@ -107,7 +107,7 @@ const Projects = () => {
                     href={project.githubUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="border-2 border-gray-300 text-gray-700 px-4 py-2 rounded-lg font-medium hover:border-[#b57edc] hover:text-[#b57edc] transition-colors duration-200 flex items-center gap-2"
+                    className="border-2 border-gray-300 text-gray-700 px-4 py-2 rounded-lg font-medium hover:border-[#8c29a7] hover:text-[#8c29a7] transition-colors duration-200 flex items-center gap-2"
                   >
                     <Github size={16} />
                     Code
@@ -155,7 +155,7 @@ const Projects = () => {
                         href={project.liveUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-[#b57edc] hover:text-[#9166b0] text-sm font-medium flex items-center gap-1"
+                        className="text-[#8c29a7] hover:text-[#71188a] text-sm font-medium flex items-center gap-1"
                       >
                         <ExternalLink size={14} />
                         Demo
@@ -183,7 +183,7 @@ const Projects = () => {
             href="https://github.com/mdabdulbasith?tab=repositories"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 text-[#b57edc] hover:text-[#996bb9] font-medium"
+            className="inline-flex items-center gap-2 text-[#8c29a7] hover:text-[#71188a] font-medium"
           >
             View More Projects on GitHub
             <ArrowRight size={16} />
